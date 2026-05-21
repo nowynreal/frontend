@@ -31,7 +31,7 @@ export function Hero() {
               <span className="text-[#bf994c]">sahada olan</span> bir ekip.
             </h1>
             <p className="max-w-2xl text-base leading-7 text-white/75 md:text-lg">
-              Entrix Consulting, uluslararasi ureticilerin ABD pazarina girisini
+              Entrix Partners, uluslararasi ureticilerin ABD pazarina girisini
               kolaylastirir. Dokumantasyon, uyumluluk, ithalatci iletisim ve
               yerel koordinasyon surecini birlikte yonetiriz.
             </p>

@@ -13,7 +13,7 @@ export default function AboutPage() {
         <PageHero
           kicker="About"
           title="A bridge between Turkish producers and U.S. opportunity"
-          subtitle="Entrix Consulting is built by market entry specialists, compliance advisors, and commercial operators who help Turkish companies launch successfully in the United States. We combine hands-on execution with strategic clarity so leadership teams can move quickly without sacrificing regulatory or brand standards."
+          subtitle="Entrix Partners is built by market entry specialists, compliance advisors, and commercial operators who help Turkish companies launch successfully in the United States. We combine hands-on execution with strategic clarity so leadership teams can move quickly without sacrificing regulatory or brand standards."
         />
         <section className="relative overflow-hidden bg-linear-to-br from-accent/20 via-transparent to-transparent py-16">
           <div className="mx-auto w-full max-w-6xl px-6">
