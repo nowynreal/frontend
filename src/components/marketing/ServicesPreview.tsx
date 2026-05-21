@@ -1,4 +1,10 @@
-import { LuArrowRight, LuBuilding2, LuFileText, LuGlobe2, LuShieldCheck } from "react-icons/lu";
+import {
+  LuArrowRight,
+  LuBuilding2,
+  LuFileText,
+  LuGlobe2,
+  LuShieldCheck,
+} from "react-icons/lu";
 import { Card, CardBody, CardHeader, CardTitle } from "@/components/ui/Card";
 import { LinkButton } from "@/components/ui/LinkButton";
 
@@ -6,24 +12,38 @@ const capabilityCards = [
   {
     title: "Local Representation",
     description: "U.S.-based team owning day-to-day operations.",
-    bullets: ["Assigned account lead", "Same-day US response", "Operational ownership"],
+    bullets: [
+      "Assigned account lead",
+      "Same-day US response",
+      "Operational ownership",
+    ],
     Icon: LuBuilding2,
   },
   {
     title: "Documentation & Compliance",
     description: "Label, FDA and import paperwork prepared for review.",
-    bullets: ["Label & claims review", "Filing readiness", "Importer-ready files"],
+    bullets: [
+      "Label & claims review",
+      "Filing readiness",
+      "Importer-ready files",
+    ],
     Icon: LuFileText,
   },
   {
     title: "Customs & Entry",
-    description: "Coordination with importers, brokers and 3PLs for entry readiness.",
-    bullets: ["Broker & importer liaison", "Entry readiness checks", "3PL coordination"],
+    description:
+      "Coordination with importers, brokers and 3PLs for entry readiness.",
+    bullets: [
+      "Broker & importer liaison",
+      "Entry readiness checks",
+      "3PL coordination",
+    ],
     Icon: LuShieldCheck,
   },
   {
     title: "Market Access",
-    description: "We may evaluate distributor, retail and channel opportunities.",
+    description:
+      "We may evaluate distributor, retail and channel opportunities.",
     bullets: ["Distributor review", "Retail evaluation", "Introductions"],
     Icon: LuGlobe2,
   },
@@ -45,7 +65,9 @@ export function ServicesPreview() {
                 <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#e0bf73]">
                   U.S. operations partner
                 </p>
-                <CardTitle className="mt-3 text-xl text-white">{title}</CardTitle>
+                <CardTitle className="mt-3 text-xl text-white">
+                  {title}
+                </CardTitle>
               </div>
               <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-[linear-gradient(180deg,rgba(201,162,75,0.2),rgba(255,255,255,0.06))] text-[#f2ddae]">
                 <Icon className="h-5 w-5" aria-hidden="true" />

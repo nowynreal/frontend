@@ -9,25 +9,29 @@ import {
 const metrics = [
   {
     title: "Local Representation & Operations",
-    detail: "A U.S.-based team handling day-to-day coordination, follow-up, and execution on your behalf.",
+    detail:
+      "A U.S.-based team handling day-to-day coordination, follow-up, and execution on your behalf.",
     note: "Local presence",
     Icon: LuBuilding2,
   },
   {
     title: "Documentation & Compliance",
-    detail: "Support for FDA, labeling, filing, and the operational paperwork needed to move products forward.",
+    detail:
+      "Support for FDA, labeling, filing, and the operational paperwork needed to move products forward.",
     note: "Compliance support",
     Icon: LuFileText,
   },
   {
     title: "Customs & Entry Coordination",
-    detail: "Readiness checks and coordination with importers, brokers, logistics, and U.S. counterparts.",
+    detail:
+      "Readiness checks and coordination with importers, brokers, logistics, and U.S. counterparts.",
     note: "Entry coordination",
     Icon: LuShieldCheck,
   },
   {
     title: "Market Access & Commercial Networks",
-    detail: "For suitable products, we may help evaluate distributor, retail, and market-entry opportunities through our local relationships.",
+    detail:
+      "For suitable products, we may help evaluate distributor, retail, and market-entry opportunities through our local relationships.",
     note: "Opportunity driven",
     Icon: LuGlobe2,
   },
@@ -47,7 +51,8 @@ export function MetricsStrip() {
             ABD girişinde yalnız değilsiniz
           </h2>
           <p className="mt-4 text-base leading-7 text-white/72 md:text-lg">
-            Kapasitemiz, risk azaltan yerel operasyon desteği ve doğru ürünler için fırsatları değerlendirebilecek ticari bağlantılar sunar.
+            Kapasitemiz, risk azaltan yerel operasyon desteği ve doğru ürünler
+            için fırsatları değerlendirebilecek ticari bağlantılar sunar.
           </p>
         </div>
 
@@ -81,7 +86,10 @@ export function MetricsStrip() {
               </p>
 
               <div className="relative mt-5 flex items-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-white/48">
-                <LuArrowRight className="h-4 w-4 text-[#e0bf73]" aria-hidden="true" />
+                <LuArrowRight
+                  className="h-4 w-4 text-[#e0bf73]"
+                  aria-hidden="true"
+                />
                 Capability with local follow-through
               </div>
             </article>
