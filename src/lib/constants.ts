@@ -373,14 +373,6 @@ export const caseStudiesPreview = caseStudies.map((study) => ({
   outcome: study.summary,
 }));
 
-export const partnerNetwork = [
-  "U.S. customs brokers",
-  "FDA and regulatory counsel",
-  "3PL and fulfillment operators",
-  "Retail buyers and distributors",
-  "Brand localization and packaging vendors",
-];
-
 export const serviceOptions = services.map((service) => service.title);
 export const industryOptions = industries;
 export const stageOptions = [
